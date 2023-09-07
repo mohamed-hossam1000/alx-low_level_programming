@@ -1,10 +1,7 @@
 #include<stdio.h>
 /**
- * op_add - Makes the sum of two numbers
- * @arg1: First operand
- * @arg2: Second operand
- *
- * Return: The sum of the two parameters
+ * print a string
+ * Return: state 0 success
  */
 int main(void)
 {
