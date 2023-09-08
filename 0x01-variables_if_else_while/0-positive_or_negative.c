@@ -1,6 +1,6 @@
 #include <stdlib.h>
 #include <time.h>
-/* more headers goes there */
+#include <stdio.h>
 
 /**
  * main - p or n
@@ -18,11 +18,11 @@ int main(void)
 	}
 	else if (n < 0)
 	{
-		printf("%d is negative");
+		printf("%d is negative\n");
 	}
 	else
 	{
-		printf("%d is zero");
+		printf("%d is zero\n");
 	}
 	return (0);
 }
