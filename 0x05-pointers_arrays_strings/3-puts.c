@@ -1,6 +1,6 @@
 void _putchar(char);
 /**
- * puts - check the code
+ * _puts - check the code
  * @str: 1
  */
 void _puts(char *str)
