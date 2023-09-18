@@ -1,6 +1,6 @@
 /**
  * reset_to_98 - wtv
- * n - n
+ * @arg1: number
  */
 void reset_to_98(int *n)
 {
