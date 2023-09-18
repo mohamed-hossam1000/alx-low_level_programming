@@ -1,3 +1,4 @@
+#include "main.h"
 /**
  * puts - check the code
  * @str: 1
