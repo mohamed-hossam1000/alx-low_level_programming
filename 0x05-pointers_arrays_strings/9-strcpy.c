@@ -1,7 +1,7 @@
 /**
  * _strcpy - wtv
  * @dest: 1
- * @sec: 2
+ * @src: 2
  *
  * Return: dest
  */
