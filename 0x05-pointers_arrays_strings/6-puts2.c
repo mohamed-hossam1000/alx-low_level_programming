@@ -1,4 +1,4 @@
-4void _putchar(char);
+void _putchar(char);
 /**
  * puts2 - check the code
  * @str: 1
