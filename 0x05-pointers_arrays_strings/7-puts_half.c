@@ -1,9 +1,9 @@
 void _putchar(char);
 /**
- * puts2 - check the code
+ * puts_half - check the code
  * @str: 1
  */
-void puts2(char *str)
+void puts_half(char *str)
 {
 	int i = 1, j;
 
