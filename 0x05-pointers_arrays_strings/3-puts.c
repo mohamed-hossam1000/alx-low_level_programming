@@ -1,4 +1,4 @@
-#include "main.h"
+void _putchar(char);
 /**
  * puts - check the code
  * @str: 1
