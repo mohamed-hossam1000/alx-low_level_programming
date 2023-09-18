@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * print_array - wtv
- * @*a: arr
+ * @a: arr
  * @n: n
  */
 void print_array(int *a, int n)
