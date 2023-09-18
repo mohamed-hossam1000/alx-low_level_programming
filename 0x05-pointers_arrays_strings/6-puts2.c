@@ -1,9 +1,9 @@
 void _putchar(char);
 /**
- * _puts - check the code
+ * puts2 - check the code
  * @str: 1
  */
-void _puts(char *str)
+void puts2(char *str)
 {
 	while (*str != '\0')
 	{
