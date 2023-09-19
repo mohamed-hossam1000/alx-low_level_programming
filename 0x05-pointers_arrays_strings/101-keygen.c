@@ -10,4 +10,6 @@ int main(void)
 {
 	srand(time(0));
 	printf("%d", rand());
+
+	return (0);
 }
