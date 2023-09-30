@@ -1,3 +1,4 @@
+void _putchar(char);
 /**
  * _puts_recursion - wtv
  * 
