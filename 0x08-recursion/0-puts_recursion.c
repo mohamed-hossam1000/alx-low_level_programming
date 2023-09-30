@@ -1,7 +1,7 @@
 void _putchar(char);
 /**
  * _puts_recursion - wtv
- * 
+ *
  * @s : var
  */
 void _puts_recursion(char *s)
