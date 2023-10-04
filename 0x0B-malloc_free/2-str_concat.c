@@ -33,6 +33,6 @@ char *str_concat(char *s1, char *s2)
 	{
 		arr[i + j] = s2[j];
 	}
-	arr[i + j] = s2[i];
+	arr[i + j] = s2[j];
 	return (arr);
 }
