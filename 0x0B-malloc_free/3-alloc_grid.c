@@ -1,3 +1,4 @@
+#include <stdlib.h>
 /**
  * alloc_grid- wtv
  * @width: n
