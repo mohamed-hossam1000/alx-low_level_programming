@@ -12,7 +12,7 @@ char *_strdup(char *str)
 
 	if (str == NULL)
 		return (NULL);
-	while (str[i] != '\0')
+	for (i = 0; str[i] != '\0';)
 		i++;
 
 	arr = malloc(i + 1);
