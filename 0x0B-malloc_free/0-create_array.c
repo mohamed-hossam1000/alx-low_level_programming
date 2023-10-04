@@ -9,20 +9,15 @@
 char *create_array(unsigned int size, char c)
 {
 	unsigned int i;
-	char *output;
 	char *arr = malloc(size);
-	if (arr == NULL)
+
+	if (arr == NULL || size <= 0)
 	{
-		output = NULL;
+		return (NULL);
 	}
 	for (i = 0; i < size; i++)
 	{
 		arr[i] = c;
 	}
-	if (size <= 0)
-		output = (char *)NULL;
-	else
-		output = arr;
-
-	return (output);
+	return (arr);
 }
