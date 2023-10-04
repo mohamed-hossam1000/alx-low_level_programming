@@ -5,7 +5,7 @@
  *
  * Return: pointer
  */
-char *_strdup(char *str);
+char *_strdup(char *str)
 {
 	unsigned int i;
 	char *arr;
