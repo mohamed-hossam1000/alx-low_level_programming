@@ -1,3 +1,4 @@
+#include <stdlib.h>
 /**
  * create_array- wtv
  * @size: n
