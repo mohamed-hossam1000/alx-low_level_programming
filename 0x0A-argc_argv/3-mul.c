@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 /**
  * main- wtv
  * @argc: 1
@@ -6,8 +7,8 @@
  *
  * Return: 0
  */
-int main(int argc, __attribute__((unused))char **argv)
+int main(__attribute__((unused))int argc, __attribute__((unused))char **argv)
 {
-	printf("%d\n", (int)((argv[1] - '0') * (argv[2] - '0')));
+	printf("%d\n", atoi(argv[1]) * atoi(argv[2]));
 	return (0);
 }
