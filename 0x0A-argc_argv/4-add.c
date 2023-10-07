@@ -8,6 +8,25 @@
  */
 int main(int argc, __attribute__((unused))char **argv)
 {
-	printf("%d\n", (int)((argv[1] - '0') * (argv[2] - '0')));
+	int res = 0, num, i, j;
+
+	for (i = 0; i < argc; i++)
+	{
+		num = 0;
+		for (j = 0; argv[i][j] != '\0'; j++)
+		{
+			if (argv[i][j] >= '0' && argv[i][j] <= '9')
+			{
+				num = num * 10 + (argv[i][j] - '0');
+			}
+			else
+			{
+				printf("Error\n");
+				return (1);
+			}
+		}
+		res += num;
+	}
+	printf("%d\n", res);
 	return (0);
 }
