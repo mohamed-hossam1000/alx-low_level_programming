@@ -10,7 +10,7 @@ int main(int argc, __attribute__((unused))char **argv)
 {
 	int res = 0, num, i, j;
 
-	for (i = 0; i < argc; i++)
+	for (i = 1; i < argc; i++)
 	{
 		num = 0;
 		for (j = 0; argv[i][j] != '\0'; j++)
