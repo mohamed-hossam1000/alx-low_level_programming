@@ -9,10 +9,18 @@
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
 	void *ret;
+	unsinged int i;
 
-	ret = malloc(b);
+	if (nmemb == 0 || size == 0)
+		return (NULL);
+
+	ret = malloc(nmemb * size);
 	if (ret == NULL)
-		exit(98);
+		return (NULL);
+	for (i = 0; i < nmemb * size; i++)
+	{
+		((char *)ret) = '\0';
+	}
 
 	return (ret);
 }
