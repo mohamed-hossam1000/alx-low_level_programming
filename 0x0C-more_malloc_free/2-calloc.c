@@ -1,7 +1,8 @@
 #include <stdlib.h>
 /**
- * malloc_checked- wtv
- * @b: n
+ * _calloc- wtv
+ * @nmemb: n
+ * @size: n
  *
  * Return: p
  */
