@@ -1,8 +1,8 @@
 #include <stdlib.h>
 /**
  * array_range- wtv
- * @nmemb: min
- * @size: max
+ * @min: min
+ * @max: max
  *
  * Return: p
  */
